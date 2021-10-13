@@ -7,7 +7,8 @@
     "single:build": "npx lerna run build --parallel && rm -rf build && mkdir -p build && cp packages/*/build/*.* build",
     "single:start": "ws -d build --spa index.html --port 8080 -z",
     "multi:build": "WITH_MULTI_REMOTES=1 npx lerna run build --parallel",
-    "multi:start": "npx lerna run start --parallel"
+    "multi:start": "npx lerna run start --parallel",
+    "develop:ver": "npx lerna version"
   },
   "private": true,
   "workspaces": [
