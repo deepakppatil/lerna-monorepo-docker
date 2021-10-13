@@ -9,11 +9,11 @@ export default function Mfa2Page() {
   return (
     <div>
       <h1>Mfa2 Page</h1>
-      <Button onClick={() => setshowModal(true)}>Business</Button>
+      <Button onClick={() => setshowModal(true)}>Open Modal</Button>
       {showModal && (
         <React.Suspense fallback="LOADING">
           <div>
-            <ShowModal />
+            <UpsellModal />
           </div>
         </React.Suspense>
       )}
