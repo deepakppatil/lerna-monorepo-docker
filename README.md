@@ -22,7 +22,7 @@ These are common to any project. Almost every one of us ends up creating utils f
 ## Abstractions over React-Redux
 
 A lot of organizations prefer to do it. AWS, Microsoft Outlook, and many more have already adopted this strategy to abstract React & Redux bindings to create their own simplified functions to quickly bootstrap a new module/product into an existing ecosystem. This helps in faster delivery of new modules since developers don’t get into the same problems of bootstrapping and can focus on product problems rather than setting up the environment. One of the most simplified approaches is presented at react-redux-patch to reduce boilerplate. 
-## Usage
+# Usage
 
 #### Setup
 
