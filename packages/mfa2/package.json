@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "@deepakpatil/mfa2",
   "scripts": {
     "start": "ws -d build --spa index.html --port 8082 -z",
@@ -12,7 +12,7 @@
     "@babel/core": "7.13.15",
     "@babel/preset-env": "7.13.15",
     "@babel/preset-react": "7.13.13",
-    "@deepakpatil/mfs3": "^0.0.1",
+    "@deepakpatil/mfs3": "^0.0.2",
     "babel-loader": "8.2.2",
     "dotenv": "8.2.0",
     "html-webpack-plugin": "5.3.1",
